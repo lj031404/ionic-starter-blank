@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -8,20 +7,20 @@
   transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-title {
+  h1 {
+    font-weight: 500;
+  }
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-input {
+  border: solid 1px #e5e5e5;
+  margin-top: 1rem;
 }
 
-#container a {
-  text-decoration: none;
+ion-list {
+  border: solid 5px red;
+  ion-text {
+    color: blue;
+  }
 }
